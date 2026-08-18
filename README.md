@@ -57,7 +57,7 @@ dim_date        dim_customer       dim_restaurant
 ![alt text](screenshots/graph_visualiser-1787058182711.png)
 
 3. Check warehouse grain and delivery coverage.
-![alt text](screenshots/graph_visualiser-1787058182711.png)
+![alt text](screenshots/graph_visualiser-1787058900412.png)
 
 4. Restaurant performance with a minimum volume threshold.
 ![alt text](screenshots/rest.png)
