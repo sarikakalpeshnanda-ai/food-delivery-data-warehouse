@@ -40,10 +40,6 @@ dim_date        dim_customer       dim_restaurant
   dim_location  dim_delivery_partner  dim_order_status
 ```
 
-## Portfolio notes
-
-Use the queries in `queries/` as screenshots for a GitHub project page. In a production implementation, raw data would be loaded incrementally, ETL would be orchestrated, and data-quality tests would be scheduled.
-
 ## Files
 
 - `schema.sql` — raw operational tables and star-schema tables
@@ -51,3 +47,19 @@ Use the queries in `queries/` as screenshots for a GitHub project page. In a pro
 - `etl.sql` — idempotent full-refresh transformation
 - `queries/` — exploration, KPI, delivery, and cohort analysis
 - `data_dictionary.md` — business definitions and table reference
+
+## Screenshots
+
+1. Orders and net order value by city.
+![alt text](screenshots/city.png)
+
+2. Restaurants with the most cancelled orders.
+![alt text](screenshots/graph_visualiser-1787058182711.png)
+
+3. Check warehouse grain and delivery coverage.
+![alt text](screenshots/graph_visualiser-1787058182711.png)
+
+4. Restaurant performance with a minimum volume threshold.
+![alt text](screenshots/rest.png)
+
+
